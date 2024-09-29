@@ -88,3 +88,7 @@ TheForceEngine/tfelnx
 # ignore recipe
 *.recipe
 .DS_Store
+
+# UWP
+TheForceEngine/x64
+TheForceEngine-UWP/x64
