@@ -79,3 +79,7 @@ CMakeFiles/
 
 # Linux
 TheForceEngine/tfelnx
+
+# UWP
+TheForceEngine/x64
+TheForceEngine-UWP/x64
