@@ -168,6 +168,7 @@ namespace TFE_FrontEndUI
 	{
 		"Classic (Software)",
 		"GPU / OpenGL",
+		"GPU / Direct3D 11"
 	};
 
 	static const char* c_colorMode[] =
@@ -2513,7 +2514,7 @@ namespace TFE_FrontEndUI
 		{
 			const f32 comboOffset = floorf(140 * s_uiScale);
 
-			// Hardware
+			// Hardware / OpenGL
 
 			// Pitch Limit
 			s32 s_pitchLimit = game->df_pitchLimit;
@@ -2567,6 +2568,11 @@ namespace TFE_FrontEndUI
 					ImGui::SliderFloat("Anisotropic Filter Quality", &graphics->anisotropyQuality, 0.0f, 1.0f);
 				}
 			}
+		}
+		else if (graphics->rendererIndex == 2)
+		{
+			// Hardware / Direct3D 11
+			ImGui::Text("Direct3D 11 options go here.");
 		}
 		ImGui::Separator();
 
@@ -3239,7 +3245,7 @@ namespace TFE_FrontEndUI
 				gameSettings->df_pitchLimit = (temp == TEMPLATE_MODERN) ? PITCH_MAXIMUM : PITCH_VANILLA_PLUS;
 				gameSettings->df_solidWallFlagFix = true;
 				// Graphics
-				graphicsSettings->rendererIndex = RENDERER_HARDWARE;
+				graphicsSettings->rendererIndex = RENDERER_OPENGL;
 				graphicsSettings->skyMode = SKYMODE_CYLINDER;
 				graphicsSettings->widescreen = true;
 				graphicsSettings->gameResolution.x = displayInfo.width;

@@ -264,7 +264,7 @@ namespace TFE_Jedi
 		// Make sure the adjustedWidth is divisible by 4.
 		width = 4 * ((width + 3) >> 2);
 
-		TFE_SubRenderer subRenderer = s_rendererType == RENDERER_HARDWARE ? TSR_CLASSIC_GPU : (width == 320 && height == 200) ? TSR_CLASSIC_FIXED : TSR_CLASSIC_FLOAT;
+		TFE_SubRenderer subRenderer = s_rendererType == RENDERER_OPENGL || s_rendererType == RENDERER_D3D11 ? TSR_CLASSIC_GPU : (width == 320 && height == 200) ? TSR_CLASSIC_FIXED : TSR_CLASSIC_FLOAT;
 		vfb_setMode(subRenderer == TSR_CLASSIC_GPU ? VFB_RENDER_TRAGET : VFB_TEXTURE);
 		bool updateTexturePacking = forceTextureUpdate;
 		bool enableMips = s_trueColor && graphics->useMipmapping;
@@ -361,7 +361,7 @@ namespace TFE_Jedi
 	{
 		if (subRenderer == TSR_HIGH_RESOLUTION)
 		{
-			subRenderer = s_rendererType == RENDERER_HARDWARE ? TSR_CLASSIC_GPU : TSR_CLASSIC_FLOAT;
+			subRenderer = s_rendererType == RENDERER_OPENGL ? TSR_CLASSIC_GPU : TSR_CLASSIC_FLOAT;
 		}
 
 		if (subRenderer == s_subRenderer)

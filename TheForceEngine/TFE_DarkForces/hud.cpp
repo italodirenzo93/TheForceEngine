@@ -261,7 +261,7 @@ namespace TFE_DarkForces
 	bool hud_reloadTextures()
 	{
 		const bool enableHdHud = TFE_Settings::getEnhancementsSettings()->enableHdHud && TFE_Settings::getGraphicsSettings()->colorMode == COLORMODE_TRUE_COLOR &&
-			TFE_Settings::getGraphicsSettings()->rendererIndex == RENDERER_HARDWARE;
+			TFE_Settings::getGraphicsSettings()->rendererIndex == RENDERER_OPENGL;
 
 		for (s32 i = 0; i < HudScale_Count; i++)
 		{
@@ -319,7 +319,7 @@ namespace TFE_DarkForces
 		s_hudFont = nullptr;
 
 		const bool enableHdHud = TFE_Settings::getEnhancementsSettings()->enableHdHud && TFE_Settings::getGraphicsSettings()->colorMode == COLORMODE_TRUE_COLOR &&
-			TFE_Settings::getGraphicsSettings()->rendererIndex == RENDERER_HARDWARE;
+			TFE_Settings::getGraphicsSettings()->rendererIndex == RENDERER_OPENGL;
 
 		if (TFE_Paths::getFilePath(c_fontName[HudFont_Main], &filePath))
 		{
@@ -356,7 +356,7 @@ namespace TFE_DarkForces
 	void hud_loadGraphics()
 	{
 		const bool enableHdHud = TFE_Settings::getEnhancementsSettings()->enableHdHud && TFE_Settings::getGraphicsSettings()->colorMode == COLORMODE_TRUE_COLOR && 
-			TFE_Settings::getGraphicsSettings()->rendererIndex == RENDERER_HARDWARE;
+			TFE_Settings::getGraphicsSettings()->rendererIndex == RENDERER_OPENGL;
 		for (s32 i = HudFont_Ammo; i < HudScale_Count; i++)
 		{
 			// TODO: Hardcoded.
@@ -887,8 +887,8 @@ namespace TFE_DarkForces
 
 		// Fix-up textures/fonts on change.
 		const bool enableHdHud = TFE_Settings::getEnhancementsSettings()->enableHdHud && TFE_Settings::getGraphicsSettings()->colorMode == COLORMODE_TRUE_COLOR &&
-			TFE_Settings::getGraphicsSettings()->rendererIndex == RENDERER_HARDWARE;
-		if ((s_hudStatusL == s_texIndex[HudTex_StatusL_Hd] && TFE_Settings::getGraphicsSettings()->rendererIndex != RENDERER_HARDWARE) ||
+			TFE_Settings::getGraphicsSettings()->rendererIndex == RENDERER_OPENGL;
+		if ((s_hudStatusL == s_texIndex[HudTex_StatusL_Hd] && TFE_Settings::getGraphicsSettings()->rendererIndex != RENDERER_OPENGL) ||
 			(enableHdHud && s_hudStatusL == s_texIndex[HudTex_StatusL] && s_texIndex[HudTex_StatusL_Hd]))
 		{
 			hud_reloadTextures();
