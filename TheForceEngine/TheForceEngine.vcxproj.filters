@@ -194,6 +194,9 @@
     <Filter Include="Source\TFE_Editor\LevelEditor\Scripting">
       <UniqueIdentifier>{edd9ea1a-0570-4524-a9d7-f703a2c09cad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\TFE_RenderBackend\D3D11">
+      <UniqueIdentifier>{3b1573a9-60d5-4537-bec1-89068cce20c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -307,9 +310,6 @@
     <ClInclude Include="TFE_Polygon\polygon.h">
       <Filter>Source\TFE_Polygon</Filter>
     </ClInclude>
-    <ClInclude Include="TFE_RenderBackend\Win32OpenGL\renderTarget.h">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClInclude>
     <ClInclude Include="TFE_RenderBackend\renderBackend.h">
       <Filter>Source\TFE_RenderBackend</Filter>
     </ClInclude>
@@ -388,26 +388,17 @@
     <ClInclude Include="Shaders\grid.h">
       <Filter>Source\Shaders</Filter>
     </ClInclude>
-    <ClInclude Include="TFE_RenderBackend\Win32OpenGL\glslParser.h">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClInclude>
     <ClInclude Include="TFE_Ui\portable-file-dialogs.h">
       <Filter>Source\TFE_Ui</Filter>
     </ClInclude>
     <ClInclude Include="TFE_RenderBackend\dynamicTexture.h">
       <Filter>Source\TFE_RenderBackend</Filter>
     </ClInclude>
-    <ClInclude Include="TFE_RenderBackend\Win32OpenGL\openGL_Caps.h">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClInclude>
     <ClInclude Include="TFE_Asset\spriteAsset_Jedi.h">
       <Filter>Source\TFE_Asset</Filter>
     </ClInclude>
     <ClInclude Include="TFE_Asset\modelAsset_jedi.h">
       <Filter>Source\TFE_Asset</Filter>
-    </ClInclude>
-    <ClInclude Include="TFE_RenderBackend\Win32OpenGL\screenCapture.h">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
     </ClInclude>
     <ClInclude Include="TFE_Asset\gifWriter.h">
       <Filter>Source\TFE_Asset</Filter>
@@ -1324,9 +1315,6 @@
     <ClInclude Include="TFE_Editor\LevelEditor\note.h">
       <Filter>Source\TFE_Editor\LevelEditor</Filter>
     </ClInclude>
-    <ClInclude Include="TFE_RenderBackend\Win32OpenGL\gl.h">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClInclude>
     <ClInclude Include="TFE_RenderShared\lineDrawMode.h">
       <Filter>Source\TFE_RenderShared</Filter>
     </ClInclude>
@@ -1488,27 +1476,6 @@
     <ClCompile Include="TFE_Polygon\polygon.cpp">
       <Filter>Source\TFE_Polygon</Filter>
     </ClCompile>
-    <ClCompile Include="TFE_RenderBackend\Win32OpenGL\renderTarget.cpp">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClCompile>
-    <ClCompile Include="TFE_RenderBackend\Win32OpenGL\shader.cpp">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClCompile>
-    <ClCompile Include="TFE_RenderBackend\Win32OpenGL\renderBackend.cpp">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClCompile>
-    <ClCompile Include="TFE_RenderBackend\Win32OpenGL\vertexBuffer.cpp">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClCompile>
-    <ClCompile Include="TFE_RenderBackend\Win32OpenGL\indexBuffer.cpp">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClCompile>
-    <ClCompile Include="TFE_RenderBackend\Win32OpenGL\renderState.cpp">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClCompile>
-    <ClCompile Include="TFE_RenderBackend\Win32OpenGL\textureGpu.cpp">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClCompile>
     <ClCompile Include="TFE_System\math.cpp">
       <Filter>Source\TFE_System</Filter>
     </ClCompile>
@@ -1560,23 +1527,11 @@
     <ClCompile Include="TFE_PostProcess\blit.cpp">
       <Filter>Source\TFE_PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="TFE_RenderBackend\Win32OpenGL\glslParser.cpp">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClCompile>
-    <ClCompile Include="TFE_RenderBackend\Win32OpenGL\dynamicTexture.cpp">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClCompile>
-    <ClCompile Include="TFE_RenderBackend\Win32OpenGL\openGL_Caps.cpp">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClCompile>
     <ClCompile Include="TFE_Asset\spriteAsset_Jedi.cpp">
       <Filter>Source\TFE_Asset</Filter>
     </ClCompile>
     <ClCompile Include="TFE_Asset\modelAsset_jedi.cpp">
       <Filter>Source\TFE_Asset</Filter>
-    </ClCompile>
-    <ClCompile Include="TFE_RenderBackend\Win32OpenGL\screenCapture.cpp">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
     </ClCompile>
     <ClCompile Include="TFE_Asset\gifWriter.cpp">
       <Filter>Source\TFE_Asset</Filter>
@@ -2004,9 +1959,6 @@
     <ClCompile Include="TFE_Jedi\Renderer\RClassic_GPU\rsectorGPU.cpp">
       <Filter>Source\TFE_Jedi\Renderer\RClassic_GPU</Filter>
     </ClCompile>
-    <ClCompile Include="TFE_RenderBackend\Win32OpenGL\shaderBuffer.cpp">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClCompile>
     <ClCompile Include="TFE_Jedi\Renderer\RClassic_GPU\renderDebug.cpp">
       <Filter>Source\TFE_Jedi\Renderer\RClassic_GPU</Filter>
     </ClCompile>
@@ -2370,9 +2322,6 @@
     <ClCompile Include="TFE_Editor\LevelEditor\note.cpp">
       <Filter>Source\TFE_Editor\LevelEditor</Filter>
     </ClCompile>
-    <ClCompile Include="TFE_RenderBackend\Win32OpenGL\glad.c">
-      <Filter>Source\TFE_RenderBackend\Win32OpenGL</Filter>
-    </ClCompile>
     <ClCompile Include="TFE_RenderShared\lineDrawMode.cpp">
       <Filter>Source\TFE_RenderShared</Filter>
     </ClCompile>
@@ -2438,6 +2387,9 @@
     </ClCompile>
     <ClCompile Include="TFE_Editor\LevelEditor\editSector.cpp">
       <Filter>Source\TFE_Editor\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="TFE_RenderBackend\D3D11\renderBackend.cpp">
+      <Filter>Source\TFE_RenderBackend\D3D11</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
