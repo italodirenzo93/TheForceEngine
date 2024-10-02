@@ -29,6 +29,9 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png">
       <Filter>Assets</Filter>
     </Image>
+    <Filter Include="mesa">
+      <UniqueIdentifier>{70b0978c-f522-4ecc-9dab-81a3a686abd8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\StoreLogo.png">
@@ -44,6 +47,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="SDL2-WinRTResource_BlankCursor.cur" />
+    <None Include="C:\bin\libgallium_wgl.dll">
+      <Filter>mesa</Filter>
+    </None>
+    <None Include="C:\bin\libglapi.dll">
+      <Filter>mesa</Filter>
+    </None>
+    <None Include="C:\bin\opengl32.dll">
+      <Filter>mesa</Filter>
+    </None>
+    <None Include="C:\bin\z-1.dll">
+      <Filter>mesa</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SDL-WinRTResources.rc" />
