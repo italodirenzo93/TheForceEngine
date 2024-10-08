@@ -11,11 +11,11 @@
 #define TFE_MINOR_VERSION 10
 #define TFE_BUILD_VERSION 0
 
-#if defined(_WIN32) || defined(BUILD_EDITOR)
+#if defined(BUILD_EDITOR)
 #define ENABLE_EDITOR 1
 #endif
 
-#if defined(_WIN32) || defined(BUILD_FORCE_SCRIPT)
+#if defined(BUILD_FORCE_SCRIPT)
 #define ENABLE_FORCE_SCRIPT 1
 #endif
 
