@@ -1,3 +1,7 @@
 [submodule "SDL-uwp-gl"]
 	path = SDL-uwp-gl
 	url = https://github.com/aerisarn/SDL-uwp-gl.git
+[submodule "SDL_image"]
+	path = SDL_image
+	url = https://github.com/libsdl-org/SDL_image.git
+	branch = SDL2
