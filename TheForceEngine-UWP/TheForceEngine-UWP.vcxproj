@@ -300,8 +300,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="glad.cpp" />
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="SDL_winrt_main_NonXAML.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -319,17 +317,13 @@
     </Content>
     <None Include="SDL2-WinRTResource_BlankCursor.cur" />
   </ItemGroup>
-	<ItemGroup>
-		<Content Include="C:\Program Files (x86)\Windows Kits\10\Redist\D3D\x64\dxil.dll">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</Content>
-	</ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="SDL-WinRTResources.rc" />
+    <Content Include="C:\Program Files (x86)\Windows Kits\10\Redist\D3D\x64\dxil.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="glad.h" />
-    <ClInclude Include="khrplatform.h" />
+    <ResourceCompile Include="SDL-WinRTResources.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
