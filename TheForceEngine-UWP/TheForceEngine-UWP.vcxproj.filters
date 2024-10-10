@@ -282,9 +282,6 @@
     <ClInclude Include="..\TheForceEngine\TFE_Audio\RtMidi.h">
       <Filter>TFE_Audio</Filter>
     </ClInclude>
-    <ClInclude Include="..\TheForceEngine\TFE_Audio\systemMidiDevice.h">
-      <Filter>TFE_Audio</Filter>
-    </ClInclude>
     <ClInclude Include="..\TheForceEngine\TFE_Audio\MidiSynth\fm4Opl3Device.h">
       <Filter>TFE_Audio\MidiSynth</Filter>
     </ClInclude>
@@ -999,9 +996,6 @@
     <ClInclude Include="..\TheForceEngine\TFE_Ui\markdown.h">
       <Filter>TFE_Ui</Filter>
     </ClInclude>
-    <ClInclude Include="..\TheForceEngine\TFE_Ui\portable-file-dialogs.h">
-      <Filter>TFE_Ui</Filter>
-    </ClInclude>
     <ClInclude Include="..\TheForceEngine\TFE_Ui\ui.h">
       <Filter>TFE_Ui</Filter>
     </ClInclude>
@@ -1039,6 +1033,7 @@
     <ClInclude Include="..\TheForceEngine\Resource.h" />
     <ClInclude Include="..\TheForceEngine\targetver.h" />
     <ClInclude Include="..\TheForceEngine\version.h" />
+    <ClInclude Include="debugHelper.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\TheForceEngine\Shaders\blit.frag">
@@ -1167,6 +1162,7 @@
     <None Include="..\TheForceEngine\Shaders\tri3dWall.vert">
       <Filter>Shaders</Filter>
     </None>
+    <None Include="SDL2-WinRTResource_BlankCursor.cur" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\TheForceEngine\TFE_A11y\accessibility.cpp">
@@ -1257,9 +1253,6 @@
       <Filter>TFE_Audio</Filter>
     </ClCompile>
     <ClCompile Include="..\TheForceEngine\TFE_Audio\RtMidi.cpp">
-      <Filter>TFE_Audio</Filter>
-    </ClCompile>
-    <ClCompile Include="..\TheForceEngine\TFE_Audio\systemMidiDevice.cpp">
       <Filter>TFE_Audio</Filter>
     </ClCompile>
     <ClCompile Include="..\TheForceEngine\TFE_Audio\MidiSynth\fm4Opl3Device.cpp">
@@ -1917,5 +1910,12 @@
       <Filter>TFE_Ui\imGUI</Filter>
     </ClCompile>
     <ClCompile Include="..\TheForceEngine\main.cpp" />
+    <ClCompile Include="SDL_winrt_main_NonXAML.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SDL-WinRTResources.rc" />
   </ItemGroup>
 </Project>

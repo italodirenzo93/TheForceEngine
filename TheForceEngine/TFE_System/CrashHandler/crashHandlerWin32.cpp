@@ -17,6 +17,10 @@
 #include <Shellapi.h>
 #include <dbghelp.h>
 
+#ifdef __UWP__
+#include "debugHelper.h"
+#endif
+
 #ifndef _AddressOfReturnAddress
 
 // Taken from: http://msdn.microsoft.com/en-us/library/s975zw7k(VS.71).aspx
@@ -173,7 +177,10 @@ void getExceptionPointers(u32 dwExceptionCode, EXCEPTION_POINTERS** ppExceptionP
 
 // This method creates minidump of the process
 void createMiniDump(EXCEPTION_POINTERS* pExcPtrs)
-{   
+{
+#ifdef __UWP__
+	STUBBED("createMiniDump");
+#else
     HMODULE hDbgHelp = NULL;
     HANDLE hFile = NULL;
     MINIDUMP_EXCEPTION_INFORMATION mei;
@@ -231,10 +238,14 @@ void createMiniDump(EXCEPTION_POINTERS* pExcPtrs)
 
     // Unload dbghelp.dll
     FreeLibrary(hDbgHelp);
+#endif
 }
 
 void showCrashReportPopup(const char* message)
 {
+#ifdef __UWP__
+	STUBBED("showCrashReportPopup");
+#else
 	// Get the current directory.
 	GetCurrentDirectoryA(TFE_MAX_PATH, s_dirBuffer);
 	// Build the message.
@@ -244,6 +255,7 @@ void showCrashReportPopup(const char* message)
 	TFE_System::logClose();
 	// Output to a popup message box.
 	MessageBoxA(NULL, (LPCSTR)s_msgBuffer, (LPCSTR)"Crash Report", MB_OK | MB_ICONERROR | MB_SYSTEMMODAL);
+#endif
 }
 
 // Structured exception handler

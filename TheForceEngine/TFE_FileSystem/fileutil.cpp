@@ -213,12 +213,12 @@ namespace FileUtil
 
 	void copyFile(const char* srcFile, const char* dstFile)
 	{
-		CopyFile(srcFile, dstFile, FALSE);
+		CopyFileA(srcFile, dstFile, FALSE);
 	}
 
 	void deleteFile(const char* srcFile)
 	{
-		DeleteFile(srcFile);
+		DeleteFileA(srcFile);
 	}
 
 	bool directoryExits(const char* path, char* outPath)
@@ -235,6 +235,9 @@ namespace FileUtil
 
 	u64 getModifiedTime( const char* path )
 	{
+#ifdef __UWP__
+		return 0;
+#else
 		FILETIME creationTime;
 		FILETIME lastAccessTime;
 		FILETIME lastWriteTime;
@@ -254,6 +257,7 @@ namespace FileUtil
 		CloseHandle(fileHandle);
 
 		return modTime;
+#endif
 	}
 
 	void fixupPath(char* path)

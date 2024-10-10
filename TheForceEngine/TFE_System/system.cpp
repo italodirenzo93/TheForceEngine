@@ -198,7 +198,7 @@ namespace TFE_System
 
 	bool osShellExecute(const char* pathToExe, const char* exeDir, const char* param, bool waitForCompletion)
 	{
-#ifdef _WIN32
+#if defined(_WIN32) && !defined(__UWP__)
 		// Prepare shellExecutInfo
 		SHELLEXECUTEINFO ShExecInfo = { 0 };
 		ShExecInfo.cbSize = sizeof(SHELLEXECUTEINFO);
@@ -230,7 +230,7 @@ namespace TFE_System
 	void postErrorMessageBox(const char* msg, const char* title)
 	{
 		TFE_System::logWrite(LOG_ERROR, title, msg);
-#ifdef _WIN32
+#if defined(_WIN32) && !defined(__UWP__)
 		// Output to a popup message box.
 		MessageBoxA(NULL, (LPCSTR)msg, (LPCSTR)title, MB_OK | MB_ICONERROR | MB_SYSTEMMODAL);
 #endif
