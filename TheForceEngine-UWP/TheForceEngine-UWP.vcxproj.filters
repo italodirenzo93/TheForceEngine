@@ -1,15 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Common">
-      <UniqueIdentifier>dfa16f10-4ad6-4005-870d-0f7e06a6d9db</UniqueIdentifier>
-    </Filter>
     <Filter Include="Assets">
       <UniqueIdentifier>bd816644-f808-4973-8def-c61778b1043c</UniqueIdentifier>
       <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
-    </Filter>
-    <Filter Include="Content">
-      <UniqueIdentifier>a1219e4a-93f4-4944-ba03-a3a27a8f4ce4</UniqueIdentifier>
     </Filter>
     <Image Include="Assets\LockScreenLogo.scale-200.png">
       <Filter>Assets</Filter>
@@ -29,8 +23,137 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png">
       <Filter>Assets</Filter>
     </Image>
-    <Filter Include="mesa">
-      <UniqueIdentifier>{70b0978c-f522-4ecc-9dab-81a3a686abd8}</UniqueIdentifier>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{5bedb40f-038a-4e22-922f-eb3f68c94a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_A11y">
+      <UniqueIdentifier>{ee693997-e3dd-4051-99ce-c0609fade5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Archive">
+      <UniqueIdentifier>{4cadd1c6-a976-4d2b-8882-0030d0157193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Archive\zip">
+      <UniqueIdentifier>{1fbf587d-ca9c-4b90-b9cd-54e91a1e22cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Asset">
+      <UniqueIdentifier>{59a7e4c2-d0f7-4d6f-896f-9f3699a1e7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Audio">
+      <UniqueIdentifier>{f4c5ebe7-0d87-4230-9d4a-f5f37c7efacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Audio\MidiSynth">
+      <UniqueIdentifier>{8efb5a34-61bd-44ac-9f58-37d4f262336f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_DarkForces">
+      <UniqueIdentifier>{a6f57b9f-cebb-4fc0-a050-3e43ae8c70f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_DarkForces\GameUI">
+      <UniqueIdentifier>{2b2d46f0-969a-437e-8bb6-5fa7576caee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_DarkForces\Actor">
+      <UniqueIdentifier>{a35fa799-95f8-49ef-9e0f-9b7c23531af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_DarkForces\Landru">
+      <UniqueIdentifier>{04118187-d20b-46f0-9a60-fa94541cf746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_FileSystem">
+      <UniqueIdentifier>{3cdf603f-8922-4298-bac6-3b0e871a8180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_FrontEndUI">
+      <UniqueIdentifier>{23328836-798d-44e1-8a24-8cc3e837a253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Game">
+      <UniqueIdentifier>{71b36e96-afe9-4f56-a6d5-e148ec755fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Input">
+      <UniqueIdentifier>{c53be283-0a72-4108-bafb-6bdc62c0947e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi">
+      <UniqueIdentifier>{b4243f1b-f8b9-4e0f-9344-756e4a234ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\Collision">
+      <UniqueIdentifier>{a7d3b000-a763-425b-98cc-983a9e8a2bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\InfSystem">
+      <UniqueIdentifier>{bd91a064-4b9e-4c12-bac3-217796354280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\Level">
+      <UniqueIdentifier>{41903284-a65a-489f-84a6-5014e363910f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\Renderer">
+      <UniqueIdentifier>{296487db-fcee-4313-acc3-4278bb7aa605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\Renderer\RClassic_Fixed">
+      <UniqueIdentifier>{3e315fa3-4c5c-4967-b309-82a292c7c290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed">
+      <UniqueIdentifier>{75c41a51-d4a9-4e62-9ba9-056d11ba7b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\Renderer\RClassic_Float">
+      <UniqueIdentifier>{fae2b99c-a4f9-4630-bb49-6dcf2a3bb1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\Renderer\RClassic_Float\robj3d_float">
+      <UniqueIdentifier>{91c77a0e-15c1-4518-964b-983a857e2358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\Renderer\RClassic_GPU">
+      <UniqueIdentifier>{b5554136-642a-4aff-ad08-0f06f11d7496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\Task">
+      <UniqueIdentifier>{4334255f-0b91-45f2-896b-e097443a1b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\Math">
+      <UniqueIdentifier>{f3adf0b3-9753-4a54-b003-2232451c436c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\Memory">
+      <UniqueIdentifier>{231b659f-cb7b-4f47-be41-39661d073312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\IMuse">
+      <UniqueIdentifier>{8499cff9-0865-474b-9bcc-6ccdcea68ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Jedi\Serialization">
+      <UniqueIdentifier>{0ccdb2e2-644c-4327-99ac-ca7ff891ff68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Memory">
+      <UniqueIdentifier>{aca3f8c6-a269-4588-b593-a69162ae0549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Outlaws">
+      <UniqueIdentifier>{72b8a3e8-1740-4a5d-9e02-070106b0a255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Polygon">
+      <UniqueIdentifier>{62df8a19-7e1f-40b5-bc83-2d02357438ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_PostProcess">
+      <UniqueIdentifier>{be3a5a82-8916-4633-9ad9-b1541ba5cbc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_RenderBackend">
+      <UniqueIdentifier>{c3ff79f7-51ba-4c68-8733-19893533438b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_RenderBackend\Win32OpenGL">
+      <UniqueIdentifier>{a7822029-58cc-4874-8f20-547bb1a4d11c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_RenderShared">
+      <UniqueIdentifier>{e3b35083-d6c4-49f1-b454-c77fbbb0185f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Settings">
+      <UniqueIdentifier>{aaa3bcba-a0c8-40f1-b829-e6c16b1731fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Settings\registry">
+      <UniqueIdentifier>{fa6ae005-ac5f-492a-bfc6-1aba4d457a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_System">
+      <UniqueIdentifier>{d5ad727c-62ed-4dff-99cb-39e4f5781461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_System\CrashHandler">
+      <UniqueIdentifier>{e6724d98-32a5-4a77-9227-7bfbb302da7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Ui">
+      <UniqueIdentifier>{2eb212ca-3c45-4108-a8bb-c8b825df292d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Ui\imGUI">
+      <UniqueIdentifier>{abba97c7-2125-4299-90ae-8a875ec1c322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFE_Ui\imGUI\Dirent">
+      <UniqueIdentifier>{ac82ffd1-8a10-47b8-a6ed-5926518060d3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -39,28 +162,1760 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <AppxManifest Include="Package.appxmanifest" />
+    <ClInclude Include="..\TheForceEngine\Shaders\curve.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\Shaders\filter.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\Shaders\grid.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\Shaders\lighting.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\Shaders\textureSampleFunc.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_A11y\accessibility.h">
+      <Filter>TFE_A11y</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_A11y\filePathList.h">
+      <Filter>TFE_A11y</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Archive\archive.h">
+      <Filter>TFE_Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Archive\gobArchive.h">
+      <Filter>TFE_Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Archive\gobMemoryArchive.h">
+      <Filter>TFE_Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Archive\labArchive.h">
+      <Filter>TFE_Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Archive\lfdArchive.h">
+      <Filter>TFE_Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Archive\zipArchive.h">
+      <Filter>TFE_Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Archive\zstdCompression.h">
+      <Filter>TFE_Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Archive\zip\miniz.h">
+      <Filter>TFE_Archive\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Archive\zip\zip.h">
+      <Filter>TFE_Archive\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\assetSystem.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\colormapAsset.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\dfKeywords.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\fontAsset.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\gameMessages.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\gifWriter.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\gmidAsset.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\imageAsset.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\levelList.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\modelAsset_jedi.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\msf_gif.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\paletteAsset.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\spriteAsset_Jedi.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\textureAsset.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\vocAsset.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Asset\vueAsset.h">
+      <Filter>TFE_Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\audioDevice.h">
+      <Filter>TFE_Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\audioFilters.h">
+      <Filter>TFE_Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\audioOutput.h">
+      <Filter>TFE_Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\audioSystem.h">
+      <Filter>TFE_Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\midi.h">
+      <Filter>TFE_Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\midiDevice.h">
+      <Filter>TFE_Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\midiPlayer.h">
+      <Filter>TFE_Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\RtMidi.h">
+      <Filter>TFE_Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\systemMidiDevice.h">
+      <Filter>TFE_Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\MidiSynth\fm4Opl3Device.h">
+      <Filter>TFE_Audio\MidiSynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\MidiSynth\fm4Tables.h">
+      <Filter>TFE_Audio\MidiSynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\MidiSynth\opl3.h">
+      <Filter>TFE_Audio\MidiSynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\MidiSynth\soundFontDevice.h">
+      <Filter>TFE_Audio\MidiSynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Audio\MidiSynth\tsf.h">
+      <Filter>TFE_Audio\MidiSynth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\agent.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\animLogic.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\automap.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\briefingList.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\cheats.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\config.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\darkForcesMain.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\gameMessage.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\gameMusic.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\generator.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\hitEffect.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\hud.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\item.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\logic.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\mission.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\pickup.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\player.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\playerCollision.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\playerLogic.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\projectile.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\random.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\sound.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\time.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\updateLogic.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\util.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\vueLogic.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\weapon.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\weaponFireFunc.h">
+      <Filter>TFE_DarkForces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\GameUI\agentMenu.h">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\GameUI\delt.h">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\GameUI\editBox.h">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\GameUI\escapeMenu.h">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\GameUI\menu.h">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\GameUI\missionBriefing.h">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\GameUI\pda.h">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\GameUI\uiDraw.h">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\actor.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\actorInternal.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\actorModule.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\actorSerialization.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\animTables.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\bobaFett.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\dragon.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\enemies.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\exploders.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\flyers.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\mousebot.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\phaseOne.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\phaseThree.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\phaseTwo.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\scenery.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\sewer.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\troopers.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\turret.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Actor\welder.h">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\cutscene.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\cutsceneList.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\cutscene_film.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\cutscene_player.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\lactor.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\lactorAnim.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\lactorCust.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\lactorDelt.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\lcanvas.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\ldraw.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\lfade.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\lfont.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\lmusic.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\lpalette.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\lrect.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\lsound.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\lsystem.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\ltimer.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\lview.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_DarkForces\Landru\textCrawl.h">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_FileSystem\filestream.h">
+      <Filter>TFE_FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_FileSystem\fileutil.h">
+      <Filter>TFE_FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_FileSystem\memorystream.h">
+      <Filter>TFE_FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_FileSystem\paths.h">
+      <Filter>TFE_FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_FileSystem\stream.h">
+      <Filter>TFE_FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_FrontEndUI\console.h">
+      <Filter>TFE_FrontEndUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_FrontEndUI\frontEndUi.h">
+      <Filter>TFE_FrontEndUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_FrontEndUI\modLoader.h">
+      <Filter>TFE_FrontEndUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_FrontEndUI\profilerView.h">
+      <Filter>TFE_FrontEndUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_FrontEndUI\uiTexture.h">
+      <Filter>TFE_FrontEndUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Game\igame.h">
+      <Filter>TFE_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Game\reticle.h">
+      <Filter>TFE_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Game\saveSystem.h">
+      <Filter>TFE_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Input\input.h">
+      <Filter>TFE_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Input\inputEnum.h">
+      <Filter>TFE_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Input\inputMapping.h">
+      <Filter>TFE_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Collision\collision.h">
+      <Filter>TFE_Jedi\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\InfSystem\infElevatorUpdateFunc.h">
+      <Filter>TFE_Jedi\InfSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\InfSystem\infPublicTypes.h">
+      <Filter>TFE_Jedi\InfSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\InfSystem\infState.h">
+      <Filter>TFE_Jedi\InfSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\InfSystem\infSystem.h">
+      <Filter>TFE_Jedi\InfSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\InfSystem\infTypesInternal.h">
+      <Filter>TFE_Jedi\InfSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\InfSystem\message.h">
+      <Filter>TFE_Jedi\InfSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Level\level.h">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Level\levelBin.h">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Level\levelData.h">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Level\levelTextures.h">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Level\rfont.h">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Level\robjData.h">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Level\robject.h">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Level\roffscreenBuffer.h">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Level\rsector.h">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Level\rtexture.h">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Level\rwall.h">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\jediRenderer.h">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\rcommon.h">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\redgePair.h">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\rlimits.h">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\robjectRender.h">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\rscanline.h">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\rsectorRender.h">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\rwallRender.h">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\rwallSegment.h">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\screenDraw.h">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\textureInfo.h">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\virtualFramebuffer.h">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\rclassicFixed.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\rclassicFixedSharedState.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\redgePairFixed.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\rflatFixed.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\rlightingFixed.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\rsectorFixed.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\rwallFixed.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed_ClipFunc.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed_Clipping.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed_Culling.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed_PolygonDraw.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed_PolygonSetup.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed_PolyRenderFunc.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed_TransformAndLighting.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\fixedPoint20.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\rclassicFloat.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\rclassicFloatSharedState.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\redgePairFloat.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\rflatFloat.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\rlightingFloat.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\rsectorFloat.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\rwallFloat.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat_ClipFunc.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat_Clipping.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat_Culling.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat_PolygonDraw.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat_PolygonSetup.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat_PolyRenderFunc.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat_TransformAndLighting.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\debug.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\frustum.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\modelGPU.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\objectPortalPlanes.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\rclassicGPU.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\renderDebug.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\rsectorGPU.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\sbuffer.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\screenDrawGPU.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\sectorDisplayList.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\spriteDisplayList.h">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Task\task.h">
+      <Filter>TFE_Jedi\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Task\taskMacros.h">
+      <Filter>TFE_Jedi\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Math\core_math.h">
+      <Filter>TFE_Jedi\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Math\cosTable.h">
+      <Filter>TFE_Jedi\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Math\fixedPoint.h">
+      <Filter>TFE_Jedi\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Memory\allocator.h">
+      <Filter>TFE_Jedi\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Memory\list.h">
+      <Filter>TFE_Jedi\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\IMuse\imConst.h">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\IMuse\imDigitalSound.h">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\IMuse\imDigitalVolumeTable.h">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\IMuse\imList.h">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\IMuse\imMidiCmd.h">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\IMuse\imMidiPlayer.h">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\IMuse\imOpCodes.h">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\IMuse\imSoundFader.h">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\IMuse\imTrigger.h">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\IMuse\imuse.h">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\IMuse\midiData.h">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Jedi\Serialization\serialization.h">
+      <Filter>TFE_Jedi\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Memory\chunkedArray.h">
+      <Filter>TFE_Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Memory\memoryRegion.h">
+      <Filter>TFE_Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Outlaws\outlawsMain.h">
+      <Filter>TFE_Outlaws</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Polygon\clipper.hpp">
+      <Filter>TFE_Polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Polygon\polygon.h">
+      <Filter>TFE_Polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_PostProcess\blit.h">
+      <Filter>TFE_PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_PostProcess\bloomDownsample.h">
+      <Filter>TFE_PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_PostProcess\bloomMerge.h">
+      <Filter>TFE_PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_PostProcess\bloomThreshold.h">
+      <Filter>TFE_PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_PostProcess\overlay.h">
+      <Filter>TFE_PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_PostProcess\postprocess.h">
+      <Filter>TFE_PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_PostProcess\postprocesseffect.h">
+      <Filter>TFE_PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderBackend\dynamicTexture.h">
+      <Filter>TFE_RenderBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderBackend\indexBuffer.h">
+      <Filter>TFE_RenderBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderBackend\renderBackend.h">
+      <Filter>TFE_RenderBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderBackend\renderState.h">
+      <Filter>TFE_RenderBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderBackend\shader.h">
+      <Filter>TFE_RenderBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderBackend\shaderBuffer.h">
+      <Filter>TFE_RenderBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderBackend\textureGpu.h">
+      <Filter>TFE_RenderBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderBackend\vertexBuffer.h">
+      <Filter>TFE_RenderBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\gl.h">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\glslParser.h">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\openGL_Caps.h">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\renderTarget.h">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\screenCapture.h">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderShared\camera3d.h">
+      <Filter>TFE_RenderShared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderShared\gridDef.h">
+      <Filter>TFE_RenderShared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderShared\lineDraw2d.h">
+      <Filter>TFE_RenderShared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderShared\lineDraw3d.h">
+      <Filter>TFE_RenderShared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderShared\lineDrawMode.h">
+      <Filter>TFE_RenderShared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderShared\modelDraw.h">
+      <Filter>TFE_RenderShared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderShared\quadDraw2d.h">
+      <Filter>TFE_RenderShared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderShared\texturePacker.h">
+      <Filter>TFE_RenderShared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderShared\triDraw2d.h">
+      <Filter>TFE_RenderShared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_RenderShared\triDraw3d.h">
+      <Filter>TFE_RenderShared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Settings\gameSourceData.h">
+      <Filter>TFE_Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Settings\settings.h">
+      <Filter>TFE_Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Settings\windows\registry.h">
+      <Filter>TFE_Settings\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_System\cJSON.h">
+      <Filter>TFE_System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_System\frameLimiter.h">
+      <Filter>TFE_System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_System\iniParser.h">
+      <Filter>TFE_System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_System\math.h">
+      <Filter>TFE_System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_System\memoryPool.h">
+      <Filter>TFE_System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_System\parser.h">
+      <Filter>TFE_System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_System\profiler.h">
+      <Filter>TFE_System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_System\system.h">
+      <Filter>TFE_System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_System\tfeMessage.h">
+      <Filter>TFE_System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_System\types.h">
+      <Filter>TFE_System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_System\utf8.h">
+      <Filter>TFE_System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_System\CrashHandler\crashHandler.h">
+      <Filter>TFE_System\CrashHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Ui\markdown.h">
+      <Filter>TFE_Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Ui\portable-file-dialogs.h">
+      <Filter>TFE_Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Ui\ui.h">
+      <Filter>TFE_Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Ui\imGUI\imconfig.h">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Ui\imGUI\imgui.h">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Ui\imGUI\imgui_impl_opengl3.h">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Ui\imGUI\imgui_impl_sdl2.h">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Ui\imGUI\imgui_internal.h">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Ui\imGUI\imgui_tfe_widgets.h">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Ui\imGUI\imstb_rectpack.h">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Ui\imGUI\imstb_textedit.h">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Ui\imGUI\imstb_truetype.h">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\TFE_Ui\imGUI\Dirent\dirent.h">
+      <Filter>TFE_Ui\imGUI\Dirent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheForceEngine\main.h" />
+    <ClInclude Include="..\TheForceEngine\Resource.h" />
+    <ClInclude Include="..\TheForceEngine\targetver.h" />
+    <ClInclude Include="..\TheForceEngine\version.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="SDL_winrt_main_NonXAML.cpp" />
+    <None Include="..\TheForceEngine\Shaders\blit.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\blit.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\bloom.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\bloomDownsample.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\bloomMerge.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\bloomThreshold.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\gpu_render_modelHologram.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\gpu_render_modelHologram.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\gpu_render_modelSolid.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\gpu_render_modelSolid.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\gpu_render_quad.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\gpu_render_quad.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\gpu_render_sprite.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\gpu_render_sprite.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\gpu_render_wall.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\gpu_render_wall.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\grid2d.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\grid2d.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\grid3d.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\grid3d.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\line2d.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\line2d.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\line3d.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\line3d.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\line3d_debug.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\line3d_debug.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\mdl3d.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\mdl3d.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\overlay.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\overlay.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\quad2d.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\quad2d.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\tri2dTextured.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\tri2dTextured.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\tri3dColor.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\tri3dColor.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\tri3dTexture.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\tri3dTexture.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\tri3dTextureClamp.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\tri3dTextureTrans.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\tri3dWall.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TheForceEngine\Shaders\tri3dWall.vert">
+      <Filter>Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="SDL2-WinRTResource_BlankCursor.cur" />
-    <None Include="C:\bin\libgallium_wgl.dll">
-      <Filter>mesa</Filter>
-    </None>
-    <None Include="C:\bin\libglapi.dll">
-      <Filter>mesa</Filter>
-    </None>
-    <None Include="C:\bin\opengl32.dll">
-      <Filter>mesa</Filter>
-    </None>
-    <None Include="C:\bin\z-1.dll">
-      <Filter>mesa</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="SDL-WinRTResources.rc" />
+    <ClCompile Include="..\TheForceEngine\TFE_A11y\accessibility.cpp">
+      <Filter>TFE_A11y</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_A11y\filePathList.cpp">
+      <Filter>TFE_A11y</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Archive\archive.cpp">
+      <Filter>TFE_Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Archive\gobArchive.cpp">
+      <Filter>TFE_Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Archive\gobMemoryArchive.cpp">
+      <Filter>TFE_Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Archive\labArchive.cpp">
+      <Filter>TFE_Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Archive\lfdArchive.cpp">
+      <Filter>TFE_Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Archive\zipArchive.cpp">
+      <Filter>TFE_Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Archive\zstdCompression.cpp">
+      <Filter>TFE_Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Archive\zip\zip.c">
+      <Filter>TFE_Archive\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\assetSystem.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\colormapAsset.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\dfKeywords.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\fontAsset.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\gameMessages.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\gifWriter.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\gmidAsset.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\imageAsset.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\levelList.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\modelAsset_jedi.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\paletteAsset.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\spriteAsset_Jedi.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\textureAsset.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\vocAsset.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Asset\vueAsset.cpp">
+      <Filter>TFE_Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Audio\audioDevice.cpp">
+      <Filter>TFE_Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Audio\audioFilters.cpp">
+      <Filter>TFE_Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Audio\audioSystem.cpp">
+      <Filter>TFE_Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Audio\midiPlayer.cpp">
+      <Filter>TFE_Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Audio\RtMidi.cpp">
+      <Filter>TFE_Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Audio\systemMidiDevice.cpp">
+      <Filter>TFE_Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Audio\MidiSynth\fm4Opl3Device.cpp">
+      <Filter>TFE_Audio\MidiSynth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Audio\MidiSynth\opl3.c">
+      <Filter>TFE_Audio\MidiSynth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Audio\MidiSynth\soundFontDevice.cpp">
+      <Filter>TFE_Audio\MidiSynth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\agent.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\animLogic.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\automap.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\briefingList.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\cheats.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\config.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\darkForcesMain.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\gameMessage.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\gameMusic.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\generator.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\hitEffect.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\hud.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\item.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\logic.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\mission.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\pickup.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\player.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\playerCollision.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\projectile.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\random.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\sound.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\time.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\updateLogic.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\util.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\vueLogic.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\weapon.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\weaponFireFunc.cpp">
+      <Filter>TFE_DarkForces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\GameUI\agentMenu.cpp">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\GameUI\delt.cpp">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\GameUI\editBox.cpp">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\GameUI\escapeMenu.cpp">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\GameUI\menu.cpp">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\GameUI\missionBriefing.cpp">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\GameUI\pda.cpp">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\GameUI\uiDraw.cpp">
+      <Filter>TFE_DarkForces\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\actor.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\actorSerialization.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\animTables.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\bobaFett.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\dragon.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\enemies.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\exploders.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\flyers.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\mousebot.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\phaseOne.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\phaseThree.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\phaseTwo.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\scenery.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\sewer.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\troopers.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\turret.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\welder.cpp">
+      <Filter>TFE_DarkForces\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\cutscene.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\cutsceneList.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\cutscene_film.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\cutscene_player.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\lactor.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\lactorAnim.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\lactorCust.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\lactorDelt.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\lcanvas.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\ldraw.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\lfade.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\lfont.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\lmusic.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\lpalette.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\lrect.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\lsound.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\lsystem.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\ltimer.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\lview.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Landru\textCrawl.cpp">
+      <Filter>TFE_DarkForces\Landru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_FileSystem\filestream.cpp">
+      <Filter>TFE_FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_FileSystem\fileutil.cpp">
+      <Filter>TFE_FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_FileSystem\memorystream.cpp">
+      <Filter>TFE_FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_FileSystem\paths.cpp">
+      <Filter>TFE_FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_FrontEndUI\console.cpp">
+      <Filter>TFE_FrontEndUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_FrontEndUI\frontEndUi.cpp">
+      <Filter>TFE_FrontEndUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_FrontEndUI\modLoader.cpp">
+      <Filter>TFE_FrontEndUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_FrontEndUI\profilerView.cpp">
+      <Filter>TFE_FrontEndUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_FrontEndUI\uiTexture.cpp">
+      <Filter>TFE_FrontEndUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Game\igame.cpp">
+      <Filter>TFE_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Game\reticle.cpp">
+      <Filter>TFE_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Game\saveSystem.cpp">
+      <Filter>TFE_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Input\input.cpp">
+      <Filter>TFE_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Input\inputMapping.cpp">
+      <Filter>TFE_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Collision\collision.cpp">
+      <Filter>TFE_Jedi\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\InfSystem\infState.cpp">
+      <Filter>TFE_Jedi\InfSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\InfSystem\infSystem.cpp">
+      <Filter>TFE_Jedi\InfSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\InfSystem\message.cpp">
+      <Filter>TFE_Jedi\InfSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Level\level.cpp">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Level\levelBin.cpp">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Level\levelData.cpp">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Level\levelTextures.cpp">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Level\rfont.cpp">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Level\robjData.cpp">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Level\robject.cpp">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Level\roffscreenBuffer.cpp">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Level\rsector.cpp">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Level\rtexture.cpp">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Level\rwall.cpp">
+      <Filter>TFE_Jedi\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\jediRenderer.cpp">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\rcommon.cpp">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\rscanline.cpp">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\rsectorRender.cpp">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\screenDraw.cpp">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\virtualFramebuffer.cpp">
+      <Filter>TFE_Jedi\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\rclassicFixed.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\rclassicFixedSharedState.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\redgePairFixed.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\rflatFixed.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\rlightingFixed.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\rsectorFixed.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\rwallFixed.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed_Clipping.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed_Culling.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed_PolygonDraw.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed_PolygonSetup.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed\robj3dFixed_TransformAndLighting.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Fixed\robj3d_fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\rclassicFloat.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\rclassicFloatSharedState.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\redgePairFloat.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\rflatFloat.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\rlightingFloat.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\rsectorFloat.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\rwallFloat.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat_Clipping.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat_Culling.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat_PolygonDraw.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat_PolygonSetup.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_Float\robj3d_float\robj3dFloat_TransformAndLighting.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_Float\robj3d_float</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\debug.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\frustum.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\modelGPU.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\objectPortalPlanes.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\rclassicGPU.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\renderDebug.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\rsectorGPU.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\sbuffer.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\screenDrawGPU.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\sectorDisplayList.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Renderer\RClassic_GPU\spriteDisplayList.cpp">
+      <Filter>TFE_Jedi\Renderer\RClassic_GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Task\task.cpp">
+      <Filter>TFE_Jedi\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Math\core_math.cpp">
+      <Filter>TFE_Jedi\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Math\cosTable.cpp">
+      <Filter>TFE_Jedi\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Memory\allocator.cpp">
+      <Filter>TFE_Jedi\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Memory\list.cpp">
+      <Filter>TFE_Jedi\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\IMuse\imConst.cpp">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\IMuse\imDigitalSound.cpp">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\IMuse\imList.cpp">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\IMuse\imMidiCmd.cpp">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\IMuse\imMidiPlayer.cpp">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\IMuse\imSoundFader.cpp">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\IMuse\imTrigger.cpp">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\IMuse\imuse.cpp">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\IMuse\midiData.cpp">
+      <Filter>TFE_Jedi\IMuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Jedi\Serialization\serialization.cpp">
+      <Filter>TFE_Jedi\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Memory\chunkedArray.cpp">
+      <Filter>TFE_Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Memory\memoryRegion.cpp">
+      <Filter>TFE_Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Outlaws\outlawsMain.cpp">
+      <Filter>TFE_Outlaws</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Polygon\clipper.cpp">
+      <Filter>TFE_Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Polygon\polygon.cpp">
+      <Filter>TFE_Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_PostProcess\blit.cpp">
+      <Filter>TFE_PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_PostProcess\bloomDownsample.cpp">
+      <Filter>TFE_PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_PostProcess\bloomMerge.cpp">
+      <Filter>TFE_PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_PostProcess\bloomThreshold.cpp">
+      <Filter>TFE_PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_PostProcess\overlay.cpp">
+      <Filter>TFE_PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_PostProcess\postprocess.cpp">
+      <Filter>TFE_PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\dynamicTexture.cpp">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\glad.c">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\glslParser.cpp">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\indexBuffer.cpp">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\openGL_Caps.cpp">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\renderBackend.cpp">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\renderState.cpp">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\renderTarget.cpp">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\screenCapture.cpp">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\shader.cpp">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\shaderBuffer.cpp">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\textureGpu.cpp">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\vertexBuffer.cpp">
+      <Filter>TFE_RenderBackend\Win32OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderShared\lineDraw2d.cpp">
+      <Filter>TFE_RenderShared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderShared\lineDraw3d.cpp">
+      <Filter>TFE_RenderShared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderShared\lineDrawMode.cpp">
+      <Filter>TFE_RenderShared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderShared\modelDraw.cpp">
+      <Filter>TFE_RenderShared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderShared\quadDraw2d.cpp">
+      <Filter>TFE_RenderShared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderShared\texturePacker.cpp">
+      <Filter>TFE_RenderShared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderShared\triDraw2d.cpp">
+      <Filter>TFE_RenderShared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_RenderShared\triDraw3d.cpp">
+      <Filter>TFE_RenderShared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Settings\settings.cpp">
+      <Filter>TFE_Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Settings\windows\registry.cpp">
+      <Filter>TFE_Settings\registry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_System\cJSON.c">
+      <Filter>TFE_System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_System\frameLimiter.cpp">
+      <Filter>TFE_System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_System\iniParser.cpp">
+      <Filter>TFE_System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_System\log.cpp">
+      <Filter>TFE_System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_System\math.cpp">
+      <Filter>TFE_System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_System\memoryPool.cpp">
+      <Filter>TFE_System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_System\parser.cpp">
+      <Filter>TFE_System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_System\profiler.cpp">
+      <Filter>TFE_System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_System\system.cpp">
+      <Filter>TFE_System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_System\tfeMessage.cpp">
+      <Filter>TFE_System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_System\utf8.cpp">
+      <Filter>TFE_System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_System\CrashHandler\crashHandlerWin32.cpp">
+      <Filter>TFE_System\CrashHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Ui\markdown.cpp">
+      <Filter>TFE_Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Ui\ui.cpp">
+      <Filter>TFE_Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Ui\imGUI\imgui.cpp">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Ui\imGUI\imgui_demo.cpp">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Ui\imGUI\imgui_draw.cpp">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Ui\imGUI\imgui_impl_opengl3.cpp">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Ui\imGUI\imgui_impl_sdl2.cpp">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Ui\imGUI\imgui_tables.cpp">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Ui\imGUI\imgui_tfe_widgets.cpp">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\TFE_Ui\imGUI\imgui_widgets.cpp">
+      <Filter>TFE_Ui\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheForceEngine\main.cpp" />
   </ItemGroup>
 </Project>
