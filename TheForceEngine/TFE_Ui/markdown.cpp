@@ -82,7 +82,7 @@ namespace TFE_Markdown
 			return;
 		}
 
-	#ifdef _WIN32
+	#if defined(_WIN32) && !defined(__UWP__)
 		ShellExecute(nullptr, "open", url.c_str(), nullptr, nullptr, SW_SHOWNORMAL);
 	#endif
 	}

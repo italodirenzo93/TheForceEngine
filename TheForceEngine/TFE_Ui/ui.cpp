@@ -5,7 +5,11 @@
 #include "imGUI/imgui.h"
 #include "imGUI/imgui_impl_sdl2.h"
 #include "imGUI/imgui_impl_opengl3.h"
+#ifdef __UWP__
+#include "debugHelper.h"
+#else
 #include "portable-file-dialogs.h"
+#endif
 #include "markdown.h"
 #include <SDL.h>
 
@@ -52,11 +56,15 @@ bool init(void* window, void* context, s32 uiScale)
 	TFE_Markdown::init(f32(16 * s_uiScale / 100));
 
 	// Initialize file dialogs.
+#ifndef __UWP__
 	if (!pfd::settings::available())
 	{
 		// TODO: Log error
 		return false;
 	}
+#else
+	STUBBED("Portable file dialogs init");
+#endif
 	
 	return true;
 }
@@ -125,7 +133,12 @@ FileResult openFileDialog(const char* title, const char* initPath, std::vector<s
 		FileUtil::convertToOSPath(initPath, initPathOS);
 	}
 
+#ifndef __UWP__
 	return pfd::open_file(title, initPathOS, filters, multiSelect ? pfd::opt::multiselect : pfd::opt::none).result();
+#else
+	STUBBED("openFileDialog");
+	return {};
+#endif
 }
 
 FileResult directorySelectDialog(const char* title, const char* initPath, bool forceInitPath/* = false*/)
@@ -137,8 +150,12 @@ FileResult directorySelectDialog(const char* title, const char* initPath, bool f
 	}
 
 	FileResult result;
+#ifndef __UWP__
 	std::string res = pfd::select_folder(title, initPathOS).result();
 	result.push_back(res);
+#else
+	STUBBED("directorySelectDialog");
+#endif
 
 	return result;
 }
@@ -152,8 +169,12 @@ FileResult saveFileDialog(const char* title, const char* initPath, std::vector<s
 	}
 
 	FileResult result;
+#ifndef __UWP__
 	std::string res = pfd::save_file(title, initPathOS, filters, forceOverwrite ? pfd::opt::force_overwrite : pfd::opt::none).result();
 	result.push_back(res);
+#else
+	STUBBED("saveFileDialog");
+#endif
 
 	return result;
 }

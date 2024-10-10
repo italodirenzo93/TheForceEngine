@@ -17,6 +17,9 @@
 #include <shlwapi.h>
 #pragma comment(lib,"shlwapi.lib")
 #include "shlobj.h"
+
+#include <windows.storage.h>
+using namespace Windows::Storage;
 #endif
 
 namespace TFE_Paths
@@ -49,7 +52,7 @@ namespace TFE_Paths
 			return !s_paths[PATH_PROGRAM_DATA].empty();
 		}
 
-#ifdef _WIN32
+#if defined(_WIN32) && !defined(__UWP__)
 		char path[TFE_MAX_PATH];
 		// Get path for each computer, non-user specific and non-roaming data.
 		if (SUCCEEDED(SHGetFolderPath(NULL, CSIDL_COMMON_APPDATA, NULL, 0, path)))
@@ -84,7 +87,7 @@ namespace TFE_Paths
 			return !s_paths[PATH_USER_DOCUMENTS].empty();
 		}
 
-#ifdef _WIN32
+#if defined(_WIN32) && !defined(__UWP__)
 		// Otherwise attempt to use the Windows User "Documents/" directory.
 		char path[TFE_MAX_PATH];
 		// Get path for each computer, non-user specific and non-roaming data.
