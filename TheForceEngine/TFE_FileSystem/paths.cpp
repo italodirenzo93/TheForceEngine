@@ -17,9 +17,6 @@
 #include <shlwapi.h>
 #pragma comment(lib,"shlwapi.lib")
 #include "shlobj.h"
-
-#include <windows.storage.h>
-using namespace Windows::Storage;
 #endif
 
 namespace TFE_Paths

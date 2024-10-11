@@ -50,7 +50,9 @@
 #ifdef min
 #undef min
 #undef max
+#ifndef __UWP__
 #pragma comment(lib, "SDL2main.lib")
+#endif
 #endif
 #endif
 
