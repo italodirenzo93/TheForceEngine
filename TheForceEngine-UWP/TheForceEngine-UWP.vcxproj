@@ -155,10 +155,10 @@
     <IncludePath>$(SolutionDir)SDL-uwp-gl\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(SolutionDir)SDL_image\include;$(SolutionDir)SDL-uwp-gl\include;$(SolutionDir)TheForceEngine;$(IncludePath)</IncludePath>
+    <IncludePath>$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(SolutionDir)SDL_image\include;$(SolutionDir)SDL-uwp-gl\include;$(SolutionDir)TheForceEngine;$(IncludePath)</IncludePath>
+    <IncludePath>$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <Link>
@@ -258,7 +258,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(SolutionDir)SDL_image\include;$(SolutionDir)SDL-uwp-gl\include;$(SolutionDir)TheForceEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;GLEW_STATIC;WIN32_OPENGL;ASMJIT_EMBED;ASMJIT_STATIC;ASMJIT_NO_FOREIGN;__UWP__;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -275,7 +275,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(SolutionDir)SDL_image\include;$(SolutionDir)SDL-uwp-gl\include;$(SolutionDir)TheForceEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;GLEW_STATIC;WIN32_OPENGL;ASMJIT_EMBED;ASMJIT_STATIC;ASMJIT_NO_FOREIGN;__UWP__;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -670,7 +670,10 @@
     <ClCompile Include="..\TheForceEngine\TFE_Archive\labArchive.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_Archive\lfdArchive.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_Archive\zipArchive.cpp" />
-    <ClCompile Include="..\TheForceEngine\TFE_Archive\zip\zip.c" />
+    <ClCompile Include="..\TheForceEngine\TFE_Archive\zip\zip.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsWinRT>
+    </ClCompile>
     <ClCompile Include="..\TheForceEngine\TFE_Archive\zstdCompression.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_Asset\assetSystem.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_Asset\colormapAsset.cpp" />
@@ -692,7 +695,10 @@
     <ClCompile Include="..\TheForceEngine\TFE_Audio\audioSystem.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_Audio\midiPlayer.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_Audio\MidiSynth\fm4Opl3Device.cpp" />
-    <ClCompile Include="..\TheForceEngine\TFE_Audio\MidiSynth\opl3.c" />
+    <ClCompile Include="..\TheForceEngine\TFE_Audio\MidiSynth\opl3.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsWinRT>
+    </ClCompile>
     <ClCompile Include="..\TheForceEngine\TFE_Audio\MidiSynth\soundFontDevice.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_Audio\RtMidi.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_DarkForces\Actor\actor.cpp" />
@@ -866,7 +872,10 @@
     <ClCompile Include="..\TheForceEngine\TFE_PostProcess\overlay.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_PostProcess\postprocess.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\dynamicTexture.cpp" />
-    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\glad.c" />
+    <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\glad.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsWinRT>
+    </ClCompile>
     <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\glslParser.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\indexBuffer.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_RenderBackend\Win32OpenGL\openGL_Caps.cpp" />
@@ -888,7 +897,10 @@
     <ClCompile Include="..\TheForceEngine\TFE_RenderShared\triDraw3d.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_Settings\settings.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_Settings\windows\registry.cpp" />
-    <ClCompile Include="..\TheForceEngine\TFE_System\cJSON.c" />
+    <ClCompile Include="..\TheForceEngine\TFE_System\cJSON.c">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsWinRT>
+    </ClCompile>
     <ClCompile Include="..\TheForceEngine\TFE_System\CrashHandler\crashHandlerWin32.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_System\frameLimiter.cpp" />
     <ClCompile Include="..\TheForceEngine\TFE_System\iniParser.cpp" />
