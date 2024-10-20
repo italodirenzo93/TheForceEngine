@@ -17,6 +17,12 @@
 #include <shlwapi.h>
 #pragma comment(lib,"shlwapi.lib")
 #include "shlobj.h"
+
+#ifdef __UWP__
+#include "debugHelper.h"
+#include <windows.storage.h>
+using namespace Windows::Storage;
+#endif
 #endif
 
 namespace TFE_Paths
@@ -72,7 +78,13 @@ namespace TFE_Paths
 			return !s_paths[PATH_PROGRAM].empty();
 		}
 #endif
+
+#ifdef __UWP__
+		s_paths[PATH_PROGRAM_DATA] = s_paths[PATH_PROGRAM];
+		return !s_paths[PATH_PROGRAM_DATA].empty();
+#else
 		return false;
+#endif
 	}
 
 	bool setUserDocumentsPath(const char* append)
@@ -120,7 +132,14 @@ namespace TFE_Paths
 		s_paths[PATH_USER_DOCUMENTS] = s_paths[PATH_PROGRAM];
 		return !s_paths[PATH_PROGRAM].empty();
 #endif
+
+#ifdef __UWP__
+		s_paths[PATH_USER_DOCUMENTS] = ToStdString(AppDataPaths::GetDefault()->Documents);
+		s_paths[PATH_USER_DOCUMENTS] += "\\";
+		return true;
+#else
 		return false;
+#endif
 	}
 
 	bool setProgramPath()
