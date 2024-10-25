@@ -7,6 +7,8 @@
 #include "imGUI/imgui_impl_opengl3.h"
 #ifdef __UWP__
 #include "debugHelper.h"
+#include <ppltasks.h>
+#include <windows.storage.pickers.h>
 #else
 #include "portable-file-dialogs.h"
 #endif
@@ -133,11 +135,23 @@ FileResult openFileDialog(const char* title, const char* initPath, std::vector<s
 		FileUtil::convertToOSPath(initPath, initPathOS);
 	}
 
-#ifndef __UWP__
-	return pfd::open_file(title, initPathOS, filters, multiSelect ? pfd::opt::multiselect : pfd::opt::none).result();
+#ifdef __UWP__
+	assert(!filters.empty());
+
+	auto picker = ref new Windows::Storage::Pickers::FileOpenPicker();
+
+	for (const auto& filter : filters)
+	{
+		std::wstring wsfilter(filter.begin(), filter.end());
+		picker->FileTypeFilter->Append(ref new Platform::String(wsfilter.c_str()));
+	}
+
+	auto task = concurrency::create_task(picker->PickSingleFileAsync());
+	//auto selectedFile = task.get();
+
+	return {  };
 #else
-	STUBBED("openFileDialog");
-	return {};
+	return pfd::open_file(title, initPathOS, filters, multiSelect ? pfd::opt::multiselect : pfd::opt::none).result();
 #endif
 }
 

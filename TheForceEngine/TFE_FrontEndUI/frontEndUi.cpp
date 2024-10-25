@@ -1335,11 +1335,19 @@ namespace TFE_FrontEndUI
 				"Select DARK.GOB",
 				"Select OUTLAWS.LAB"
 			};
+#ifdef __UWP__
+			const std::vector<std::string> filters[] =
+			{
+				{ ".GOB", ".gob" },
+				{ ".LAB", ".lab" }
+			};
+#else
 			const std::vector<std::string> filters[]=
 			{
 				{ "GOB Archive", "*.GOB *.gob", "Executable", "*.EXE *.exe" },
 				{ "LAB Archive", "*.LAB *.lab", "Executable", "*.EXE *.exe" },
 			};
+#endif
 
 			FileResult res = TFE_Ui::openFileDialog(games[browseWinOpen], DEFAULT_PATH, filters[browseWinOpen]);
 			if (!res.empty() && !res[0].empty())
