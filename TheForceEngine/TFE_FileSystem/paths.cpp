@@ -134,9 +134,10 @@ namespace TFE_Paths
 #endif
 
 #ifdef __UWP__
-		s_paths[PATH_USER_DOCUMENTS] = ToStdString(AppDataPaths::GetDefault()->Documents);
+		const auto path = ToStdString(AppDataPaths::GetDefault()->Documents);
+		s_paths[PATH_USER_DOCUMENTS] = path;
 		s_paths[PATH_USER_DOCUMENTS] += "\\";
-		return true;
+		return FileUtil::makeDirectory(path.c_str());
 #else
 		return false;
 #endif

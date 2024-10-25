@@ -168,6 +168,9 @@ namespace TFE_Settings
 
 	void autodetectGamePaths()
 	{
+#ifdef __UWP__
+		return; // need to supply game data path manually
+#endif
 		for (u32 gameId = 0; gameId < Game_Count; gameId++)
 		{
 			const size_t sourcePathLen = strlen(s_gameSettings.header[gameId].sourcePath);
